@@ -1,0 +1,208 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "315b989d-f9c9-4315-b219-825655ac94ea",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "c47ed029-b41f-4cbd-9890-dca5e9dbd4a4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "eda46ec5-3d06-48da-bde3-f284a6fa01ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "90bb5bee-a036-46c3-bbd5-201c24326143",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "072935ed-370a-4b1b-9362-56577fd1febe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CamAxisX",
+                    "type": "Value",
+                    "id": "d40b471b-03ba-4e07-8150-d3474bc808a6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CamAxisY",
+                    "type": "Value",
+                    "id": "47adb7a6-3335-4f34-ad53-e988d8d3b389",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "WeaponChange",
+                    "type": "Value",
+                    "id": "5e0c1e79-a882-406b-ad41-da04537193b8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "wasd",
+                    "id": "88189deb-ac7f-4d35-970a-f7de3c2d33cf",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "dc70e781-8f3c-40f0-8954-140f6c9afe6b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e9e095f3-11b6-4e88-b9a0-cd8aa2450735",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "2fd4ae01-9c20-4623-9d28-41e481458b19",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "59418a1a-ff59-476a-8149-5b2c30d0b79d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "1b9e4d03-ff98-49e6-aaa1-7469e092530f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbc09097-44c9-4745-9c74-ade5a0df5516",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df86d4d3-d443-405d-a532-a01302d2534e",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f130d2cd-4c56-4842-aa43-5719318ff4aa",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "CamAxisX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "efc689e7-72e0-4d4a-bd5d-5ebaa8297a5e",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "CamAxisY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1eea608d-67c8-473c-87d8-69da4c326b02",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "WeaponChange",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
